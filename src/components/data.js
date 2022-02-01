@@ -40,7 +40,7 @@ export const projects = [
       "Personal portfolio minimalistic, using ReactJs,React-Router-Dom,where you can see my projects and a little about me,also a functional contact form",
     image: Portfolio,
 
-    url: "https://veronicaortegaportfolio.vercel.app/",
+    url: "https://veronicaortega-portfolio.vercel.app/",
     code: "https://github.com/Veronica43/Portfolio.git",
     id: 2,
   },
