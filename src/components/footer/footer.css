@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  font-size: 12px;
+}
+@media screen and (max-width: 480px) {
+  .footer {
+    display: none;
+  }
+} ;

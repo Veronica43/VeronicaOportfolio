@@ -1,0 +1,25 @@
+.nav-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav-main a {
+  text-decoration: none;
+  color: rgb(189, 82, 145);
+}
+.nav-main a :hover {
+  color: gray;
+}
+
+.name {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-main h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+}

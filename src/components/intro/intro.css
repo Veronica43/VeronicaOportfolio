@@ -1,0 +1,138 @@
+.intro-main {
+  display: flex;
+  height: 100vh;
+}
+
+.intro-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.intro-left-wrapper {
+  padding: 50px;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.intro-intro {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.intro-name {
+  font-size: 60px;
+}
+
+.intro-title {
+  height: 50px;
+  overflow: hidden;
+}
+.intro-desc {
+  color: rgb(189, 82, 145);
+  font-size: 20px;
+  margin-top: 1.5rem;
+}
+
+.intro-title-wrapper {
+  height: 100%;
+  animation: move 8s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.intro-title-item {
+  height: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(189, 82, 145);
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  text-align: center;
+  line-height: 3rem;
+  background-color: black;
+  color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.button:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+  transition: all 0.2s ease;
+}
+
+.intro-bg {
+  clip-path: circle(43% at 50% 55%);
+  background-color: rgb(18, 1, 1);
+  margin-left: 5rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-top: 2rem;
+}
+
+.intro-video {
+  margin-bottom: 3rem;
+  object-fit: cover;
+}
+
+/* .intro-img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  position: absolute;
+  margin-left: 50%;
+  margin-top: 12rem;
+} */
+
+@media screen and (max-width: 480px) {
+  .intro-main {
+    flex-direction: column;
+  }
+
+  .intro-left-wrapper {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+  }
+  .intro-desc {
+    padding-top: 10px;
+    display: flex;
+  }
+  .intro-bg {
+    display: none;
+  }
+}
