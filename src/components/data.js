@@ -41,7 +41,7 @@ export const projects = [
     image: Portfolio,
 
     url: "https://veronicaortega-portfolio.vercel.app/",
-    code: "https://github.com/Veronica43/Portfolio.git",
+    code: "https://github.com/Veronica43/VeronicaOportfolio.git",
     id: 2,
   },
 ];

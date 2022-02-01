@@ -20,8 +20,7 @@ const Intro = () => {
           </div>
           <p className="intro-desc">
             Hi! I'm a Junior Frontend Developer looking for a development
-            position. Supportive and enthusiastic team player, dedicated to
-            efficiently resolving project issues.
+            position. Supportive and enthusiastic team player.
           </p>
           <a
             href="https://veronica-ortega-cv.vercel.app/"
